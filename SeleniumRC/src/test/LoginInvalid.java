@@ -15,6 +15,7 @@ public class LoginInvalid {
 
 	@Test
 	public void testLoginInvalid() throws Exception {
+		
 		selenium.open("/");
 		selenium.click("link=Sign in");
 		selenium.waitForPageToLoad("30000");
